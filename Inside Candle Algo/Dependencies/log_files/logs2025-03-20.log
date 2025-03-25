@@ -1,0 +1,52 @@
+INFO:2025-03-20 10:15:56,123:MainThread:Dhan.py  started system
+INFO:2025-03-20 10:15:56,123:MainThread:STARTED THE PROGRAM
+ERROR:2025-03-20 10:15:58,133:MainThread:Error at Gettting balance as 'availabelBalance'
+Traceback (most recent call last):
+  File "C:\Users\vsfjg\Desktop\Trading\Live_Algo\Inside Candle Algo\Dhan_Tradehull.py", line 198, in get_balance
+    balance = float(response['data']['availabelBalance'])
+KeyError: 'availabelBalance'
+INFO:2025-03-20 10:38:31,642:MainThread:Dhan.py  started system
+INFO:2025-03-20 10:38:31,642:MainThread:STARTED THE PROGRAM
+ERROR:2025-03-20 10:38:32,459:MainThread:Error at Gettting balance as 'availabelBalance'
+Traceback (most recent call last):
+  File "C:\Users\vsfjg\Desktop\Trading\Live_Algo\Inside Candle Algo\Dhan_Tradehull.py", line 198, in get_balance
+    balance = float(response['data']['availabelBalance'])
+KeyError: 'availabelBalance'
+INFO:2025-03-20 11:08:54,179:MainThread:Dhan.py  started system
+INFO:2025-03-20 11:08:54,179:MainThread:STARTED THE PROGRAM
+ERROR:2025-03-20 11:08:56,373:MainThread:Error at Gettting balance as 'availabelBalance'
+Traceback (most recent call last):
+  File "C:\Users\vsfjg\Desktop\Trading\Live_Algo\Inside Candle Algo\Dhan_Tradehull.py", line 199, in get_balance
+    balance = float(response['data']['availabelBalance'])
+KeyError: 'availabelBalance'
+INFO:2025-03-20 11:12:51,937:MainThread:Dhan.py  started system
+INFO:2025-03-20 11:12:51,937:MainThread:STARTED THE PROGRAM
+ERROR:2025-03-20 11:12:54,143:MainThread:Error at Gettting balance as 'availabelBalance'
+Traceback (most recent call last):
+  File "C:\Users\vsfjg\Desktop\Trading\Live_Algo\Inside Candle Algo\Dhan_Tradehull.py", line 199, in get_balance
+    balance = float(response['data']['availabelBalance'])
+KeyError: 'availabelBalance'
+INFO:2025-03-20 11:15:11,465:MainThread:Dhan.py  started system
+INFO:2025-03-20 11:15:11,465:MainThread:STARTED THE PROGRAM
+INFO:2025-03-20 11:16:53,570:MainThread:Dhan.py  started system
+INFO:2025-03-20 11:16:53,570:MainThread:STARTED THE PROGRAM
+ERROR:2025-03-20 11:16:56,070:MainThread:Error at Gettting balance as 'availabelBalance'
+Traceback (most recent call last):
+  File "C:\Users\vsfjg\Desktop\Trading\Live_Algo\Inside Candle Algo\Dhan_Tradehull.py", line 199, in get_balance
+    balance = float(response['data']['availabelBalance'])
+KeyError: 'availabelBalance'
+INFO:2025-03-20 11:22:07,429:MainThread:Dhan.py  started system
+INFO:2025-03-20 11:22:07,429:MainThread:STARTED THE PROGRAM
+INFO:2025-03-20 11:23:41,667:MainThread:Dhan.py  started system
+INFO:2025-03-20 11:23:41,667:MainThread:STARTED THE PROGRAM
+ERROR:2025-03-20 11:23:44,172:MainThread:Error at Gettting balance as 'availabelBalance'
+Traceback (most recent call last):
+  File "C:\Users\vsfjg\Desktop\Trading\Live_Algo\Inside Candle Algo\Dhan_Tradehull.py", line 199, in get_balance
+    balance = float(response['data']['availabelBalance'])
+KeyError: 'availabelBalance'
+INFO:2025-03-20 11:40:38,331:MainThread:Dhan.py  started system
+INFO:2025-03-20 11:40:38,331:MainThread:STARTED THE PROGRAM
+ERROR:2025-03-20 11:40:40,819:MainThread:Error at Getting balance: Invalid Token
+NoneType: None
+INFO:2025-03-20 11:43:38,639:MainThread:Dhan.py  started system
+INFO:2025-03-20 11:43:38,639:MainThread:STARTED THE PROGRAM

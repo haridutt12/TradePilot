@@ -1,0 +1,93 @@
+INFO:2024-11-05 00:03:22,547:MainThread:Dhan.py  started system
+INFO:2024-11-05 00:03:22,547:MainThread:STARTED THE PROGRAM
+ERROR:2024-11-05 00:03:22,547:MainThread:got exception in get_login as [WinError 32] The process cannot access the file because it is being used by another process: 'Dependencies\\all_instrument 2024-11-04.csv' 
+Traceback (most recent call last):
+  File "C:\Users\imran\Desktop\Dhan Lecture Sessions\New Series\1. Api Upgrade\Dhan_Tradehull_V2.py", line 81, in get_login
+    self.instrument_df 									= self.get_instrument_file()
+  File "C:\Users\imran\Desktop\Dhan Lecture Sessions\New Series\1. Api Upgrade\Dhan_Tradehull_V2.py", line 98, in get_instrument_file
+    os.remove("Dependencies\\" + path)
+PermissionError: [WinError 32] The process cannot access the file because it is being used by another process: 'Dependencies\\all_instrument 2024-11-04.csv'
+ERROR:2024-11-05 00:03:22,551:MainThread:Exception at calling ltp as 'Tradehull' object has no attribute 'instrument_df'
+Traceback (most recent call last):
+  File "C:\Users\imran\Desktop\Dhan Lecture Sessions\New Series\1. Api Upgrade\Dhan_Tradehull_V2.py", line 407, in get_ltp_data
+    instrument_df = self.instrument_df.copy()
+AttributeError: 'Tradehull' object has no attribute 'instrument_df'
+INFO:2024-11-05 00:03:38,224:MainThread:Dhan.py  started system
+INFO:2024-11-05 00:03:38,225:MainThread:STARTED THE PROGRAM
+ERROR:2024-11-05 00:03:38,225:MainThread:got exception in get_login as [WinError 32] The process cannot access the file because it is being used by another process: 'Dependencies\\all_instrument 2024-11-04.csv' 
+Traceback (most recent call last):
+  File "C:\Users\imran\Desktop\Dhan Lecture Sessions\New Series\1. Api Upgrade\Dhan_Tradehull_V2.py", line 81, in get_login
+    self.instrument_df 									= self.get_instrument_file()
+  File "C:\Users\imran\Desktop\Dhan Lecture Sessions\New Series\1. Api Upgrade\Dhan_Tradehull_V2.py", line 98, in get_instrument_file
+    os.remove("Dependencies\\" + path)
+PermissionError: [WinError 32] The process cannot access the file because it is being used by another process: 'Dependencies\\all_instrument 2024-11-04.csv'
+INFO:2024-11-05 01:20:51,645:MainThread:Dhan.py  started system
+INFO:2024-11-05 01:20:51,645:MainThread:STARTED THE PROGRAM
+INFO:2024-11-05 01:31:33,373:MainThread:Dhan.py  started system
+INFO:2024-11-05 01:31:33,373:MainThread:STARTED THE PROGRAM
+INFO:2024-11-05 01:33:47,104:MainThread:Dhan.py  started system
+INFO:2024-11-05 01:33:47,105:MainThread:STARTED THE PROGRAM
+INFO:2024-11-05 01:34:01,579:MainThread:Dhan.py  started system
+INFO:2024-11-05 01:34:01,579:MainThread:STARTED THE PROGRAM
+INFO:2024-11-05 01:34:48,475:MainThread:Dhan.py  started system
+INFO:2024-11-05 01:34:48,475:MainThread:STARTED THE PROGRAM
+INFO:2024-11-05 01:39:25,740:MainThread:Dhan.py  started system
+INFO:2024-11-05 01:39:25,741:MainThread:STARTED THE PROGRAM
+INFO:2024-11-05 01:39:38,988:MainThread:Dhan.py  started system
+INFO:2024-11-05 01:39:38,988:MainThread:STARTED THE PROGRAM
+INFO:2024-11-05 01:41:33,741:MainThread:Dhan.py  started system
+INFO:2024-11-05 01:41:33,741:MainThread:STARTED THE PROGRAM
+INFO:2024-11-05 01:41:43,575:MainThread:Dhan.py  started system
+INFO:2024-11-05 01:41:43,575:MainThread:STARTED THE PROGRAM
+INFO:2024-11-05 01:42:26,837:MainThread:Dhan.py  started system
+INFO:2024-11-05 01:42:26,838:MainThread:STARTED THE PROGRAM
+INFO:2024-11-05 01:44:16,668:MainThread:Dhan.py  started system
+INFO:2024-11-05 01:44:16,668:MainThread:STARTED THE PROGRAM
+ERROR:2024-11-05 01:44:18,177:MainThread:Exception for instrument name NIFTY 07 NOV 254000 CALL as single positional indexer is out-of-bounds
+ERROR:2024-11-05 01:44:18,199:MainThread:Exception for instrument name NIFTY 07 NOV 254000 PUT as single positional indexer is out-of-bounds
+INFO:2024-11-05 01:44:34,421:MainThread:Dhan.py  started system
+INFO:2024-11-05 01:44:34,421:MainThread:STARTED THE PROGRAM
+ERROR:2024-11-05 01:44:36,147:MainThread:Exception for instrument name NIFTY 07 NOV 254000 CALL as single positional indexer is out-of-bounds
+ERROR:2024-11-05 01:44:36,167:MainThread:Exception for instrument name NIFTY 07 NOV 254000 PUT as single positional indexer is out-of-bounds
+INFO:2024-11-05 01:45:00,147:MainThread:Dhan.py  started system
+INFO:2024-11-05 01:45:00,149:MainThread:STARTED THE PROGRAM
+ERROR:2024-11-05 01:45:05,800:MainThread:Exception for instrument name NIFTY 07 NOV 254000 CALL as single positional indexer is out-of-bounds
+ERROR:2024-11-05 01:45:05,831:MainThread:Exception for instrument name NIFTY 07 NOV 254000 PUT as single positional indexer is out-of-bounds
+ERROR:2024-11-05 01:45:19,871:MainThread:Exception for instrument name NIFTY 07 NOV 254000 CALL as single positional indexer is out-of-bounds
+ERROR:2024-11-05 01:45:19,899:MainThread:Exception for instrument name NIFTY 07 NOV 254000 PUT as single positional indexer is out-of-bounds
+INFO:2024-11-05 01:48:03,773:MainThread:Dhan.py  started system
+INFO:2024-11-05 01:48:03,773:MainThread:STARTED THE PROGRAM
+INFO:2024-11-05 01:48:37,894:MainThread:Dhan.py  started system
+INFO:2024-11-05 01:48:37,895:MainThread:STARTED THE PROGRAM
+INFO:2024-11-05 01:49:00,705:MainThread:Dhan.py  started system
+INFO:2024-11-05 01:49:00,705:MainThread:STARTED THE PROGRAM
+INFO:2024-11-05 09:52:04,779:MainThread:Dhan.py  started system
+INFO:2024-11-05 09:52:04,779:MainThread:STARTED THE PROGRAM
+INFO:2024-11-05 10:11:22,804:MainThread:Dhan.py  started system
+INFO:2024-11-05 10:11:22,805:MainThread:STARTED THE PROGRAM
+INFO:2024-11-05 10:11:35,767:MainThread:Dhan.py  started system
+INFO:2024-11-05 10:11:35,768:MainThread:STARTED THE PROGRAM
+INFO:2024-11-05 10:14:52,568:MainThread:Dhan.py  started system
+INFO:2024-11-05 10:14:52,569:MainThread:STARTED THE PROGRAM
+INFO:2024-11-05 10:15:26,911:MainThread:Dhan.py  started system
+INFO:2024-11-05 10:15:26,911:MainThread:STARTED THE PROGRAM
+INFO:2024-11-05 10:17:20,892:MainThread:Dhan.py  started system
+INFO:2024-11-05 10:17:20,892:MainThread:STARTED THE PROGRAM
+INFO:2024-11-05 10:18:12,599:MainThread:Dhan.py  started system
+INFO:2024-11-05 10:18:12,600:MainThread:STARTED THE PROGRAM
+INFO:2024-11-05 10:25:22,130:MainThread:Dhan.py  started system
+INFO:2024-11-05 10:25:22,130:MainThread:STARTED THE PROGRAM
+INFO:2024-11-05 10:26:28,178:MainThread:Dhan.py  started system
+INFO:2024-11-05 10:26:28,179:MainThread:STARTED THE PROGRAM
+INFO:2024-11-05 10:28:31,078:MainThread:Dhan.py  started system
+INFO:2024-11-05 10:28:31,078:MainThread:STARTED THE PROGRAM
+INFO:2024-11-05 10:30:44,753:MainThread:Dhan.py  started system
+INFO:2024-11-05 10:30:44,753:MainThread:STARTED THE PROGRAM
+INFO:2024-11-05 10:31:21,444:MainThread:Dhan.py  started system
+INFO:2024-11-05 10:31:21,444:MainThread:STARTED THE PROGRAM
+INFO:2024-11-05 10:31:45,107:MainThread:Dhan.py  started system
+INFO:2024-11-05 10:31:45,107:MainThread:STARTED THE PROGRAM
+INFO:2024-11-05 10:34:34,369:MainThread:Dhan.py  started system
+INFO:2024-11-05 10:34:34,369:MainThread:STARTED THE PROGRAM
+INFO:2024-11-05 10:34:53,534:MainThread:Dhan.py  started system
+INFO:2024-11-05 10:34:53,534:MainThread:STARTED THE PROGRAM
