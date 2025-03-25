@@ -1,0 +1,125 @@
+INFO:2025-03-21 11:03:54,725:MainThread:Dhan.py  started system
+INFO:2025-03-21 11:03:54,725:MainThread:STARTED THE PROGRAM
+INFO:2025-03-21 11:04:22,739:MainThread:Dhan.py  started system
+INFO:2025-03-21 11:04:22,739:MainThread:STARTED THE PROGRAM
+ERROR:2025-03-21 11:04:24,776:MainThread:Exception in Getting OHLC data as intraday_minute_data() missing 2 required positional arguments: 'from_date' and 'to_date'
+Traceback (most recent call last):
+  File "C:\Users\vsfjg\Desktop\Trading\Live_Algo\Inside Candle Algo\Dhan_Tradehull.py", line 258, in get_intraday_data
+    ohlc = self.Dhan.intraday_minute_data(str(security_id),exchangeSegment,instrument_type)
+TypeError: intraday_minute_data() missing 2 required positional arguments: 'from_date' and 'to_date'
+INFO:2025-03-21 11:06:41,919:MainThread:Dhan.py  started system
+INFO:2025-03-21 11:06:41,919:MainThread:STARTED THE PROGRAM
+ERROR:2025-03-21 11:06:43,814:MainThread:Exception in Getting OHLC data as intraday_minute_data() missing 2 required positional arguments: 'from_date' and 'to_date'
+Traceback (most recent call last):
+  File "C:\Users\vsfjg\Desktop\Trading\Live_Algo\Inside Candle Algo\Dhan_Tradehull.py", line 258, in get_intraday_data
+    ohlc = self.Dhan.intraday_minute_data(str(security_id),exchangeSegment,instrument_type)
+TypeError: intraday_minute_data() missing 2 required positional arguments: 'from_date' and 'to_date'
+INFO:2025-03-21 11:19:36,727:MainThread:Dhan.py  started system
+INFO:2025-03-21 11:19:36,738:MainThread:STARTED THE PROGRAM
+INFO:2025-03-21 11:20:24,737:MainThread:Dhan.py  started system
+INFO:2025-03-21 11:20:24,737:MainThread:STARTED THE PROGRAM
+ERROR:2025-03-21 11:22:28,477:MainThread:Exception in Getting OHLC data as Check the Tradingsymbol or Exchange
+Traceback (most recent call last):
+  File "C:\Users\vsfjg\Desktop\Trading\Live_Algo\Inside Candle Algo\Dhan_Tradehull_V2.py", line 540, in get_intraday_data
+    raise Exception("Check the Tradingsymbol or Exchange")
+Exception: Check the Tradingsymbol or Exchange
+INFO:2025-03-21 11:27:31,406:MainThread:Dhan.py  started system
+INFO:2025-03-21 11:27:31,406:MainThread:STARTED THE PROGRAM
+INFO:2025-03-21 11:34:03,442:MainThread:Dhan.py  started system
+INFO:2025-03-21 11:34:03,442:MainThread:STARTED THE PROGRAM
+ERROR:2025-03-21 11:36:12,703:MainThread:Exception in Getting OHLC data as Check the Tradingsymbol or Exchange
+Traceback (most recent call last):
+  File "C:\Users\vsfjg\Desktop\Trading\Live_Algo\Inside Candle Algo\Dhan_Tradehull_V2.py", line 540, in get_intraday_data
+    raise Exception("Check the Tradingsymbol or Exchange")
+Exception: Check the Tradingsymbol or Exchange
+INFO:2025-03-21 11:52:05,400:MainThread:Dhan.py  started system
+INFO:2025-03-21 11:52:05,401:MainThread:STARTED THE PROGRAM
+ERROR:2025-03-21 11:54:29,083:MainThread:Exception in Getting OHLC data as Check the Tradingsymbol or Exchange
+Traceback (most recent call last):
+  File "C:\Users\vsfjg\Desktop\Trading\Live_Algo\Inside Candle Algo\Dhan_Tradehull_V2.py", line 540, in get_intraday_data
+    raise Exception("Check the Tradingsymbol or Exchange")
+Exception: Check the Tradingsymbol or Exchange
+INFO:2025-03-21 11:59:49,419:MainThread:Dhan.py  started system
+INFO:2025-03-21 11:59:49,419:MainThread:STARTED THE PROGRAM
+INFO:2025-03-21 12:00:48,998:MainThread:Dhan.py  started system
+INFO:2025-03-21 12:00:48,999:MainThread:STARTED THE PROGRAM
+ERROR:2025-03-21 12:03:12,995:MainThread:Exception in Getting OHLC data as Check the Tradingsymbol or Exchange
+Traceback (most recent call last):
+  File "C:\Users\vsfjg\Desktop\Trading\Live_Algo\Inside Candle Algo\Dhan_Tradehull_V2.py", line 540, in get_intraday_data
+    raise Exception("Check the Tradingsymbol or Exchange")
+Exception: Check the Tradingsymbol or Exchange
+INFO:2025-03-21 12:07:03,843:MainThread:Dhan.py  started system
+INFO:2025-03-21 12:07:03,843:MainThread:STARTED THE PROGRAM
+ERROR:2025-03-21 12:09:48,550:MainThread:Exception in Getting OHLC data as Check the Tradingsymbol or Exchange
+Traceback (most recent call last):
+  File "C:\Users\vsfjg\Desktop\Trading\Live_Algo\Inside Candle Algo\Dhan_Tradehull_V2.py", line 540, in get_intraday_data
+    raise Exception("Check the Tradingsymbol or Exchange")
+Exception: Check the Tradingsymbol or Exchange
+INFO:2025-03-21 12:13:30,912:MainThread:Dhan.py  started system
+INFO:2025-03-21 12:13:30,912:MainThread:STARTED THE PROGRAM
+INFO:2025-03-21 12:16:33,301:MainThread:Dhan.py  started system
+INFO:2025-03-21 12:16:33,302:MainThread:STARTED THE PROGRAM
+ERROR:2025-03-21 12:19:20,519:MainThread:Exception in Getting OHLC data as Check the Tradingsymbol or Exchange
+Traceback (most recent call last):
+  File "C:\Users\vsfjg\Desktop\Trading\Live_Algo\Inside Candle Algo\Dhan_Tradehull_V2.py", line 540, in get_intraday_data
+    raise Exception("Check the Tradingsymbol or Exchange")
+Exception: Check the Tradingsymbol or Exchange
+INFO:2025-03-21 12:21:37,125:MainThread:Dhan.py  started system
+INFO:2025-03-21 12:21:37,126:MainThread:STARTED THE PROGRAM
+ERROR:2025-03-21 12:25:28,876:MainThread:Exception in Getting OHLC data as {'status': 'failure', 'remarks': {'error_code': 'DH-907', 'error_type': 'Data_Error', 'error_message': 'System is unable to fetch data due to incorrect parameters or no data present'}, 'data': {'errorType': 'Data_Error', 'errorCode': 'DH-907', 'errorMessage': 'System is unable to fetch data due to incorrect parameters or no data present'}}
+Traceback (most recent call last):
+  File "C:\Users\vsfjg\Desktop\Trading\Live_Algo\Inside Candle Algo\Dhan_Tradehull_V2.py", line 561, in get_intraday_data
+    raise Exception(ohlc)
+Exception: {'status': 'failure', 'remarks': {'error_code': 'DH-907', 'error_type': 'Data_Error', 'error_message': 'System is unable to fetch data due to incorrect parameters or no data present'}, 'data': {'errorType': 'Data_Error', 'errorCode': 'DH-907', 'errorMessage': 'System is unable to fetch data due to incorrect parameters or no data present'}}
+INFO:2025-03-21 13:09:15,211:MainThread:Dhan.py  started system
+INFO:2025-03-21 13:09:15,213:MainThread:STARTED THE PROGRAM
+ERROR:2025-03-21 13:16:13,426:MainThread:Exception in Getting OHLC data as {'status': 'failure', 'remarks': {'error_code': 'DH-907', 'error_type': 'Data_Error', 'error_message': 'System is unable to fetch data due to incorrect parameters or no data present'}, 'data': {'errorType': 'Data_Error', 'errorCode': 'DH-907', 'errorMessage': 'System is unable to fetch data due to incorrect parameters or no data present'}}
+Traceback (most recent call last):
+  File "C:\Users\vsfjg\Desktop\Trading\Live_Algo\Inside Candle Algo\Dhan_Tradehull_V2.py", line 561, in get_intraday_data
+    raise Exception(ohlc)
+Exception: {'status': 'failure', 'remarks': {'error_code': 'DH-907', 'error_type': 'Data_Error', 'error_message': 'System is unable to fetch data due to incorrect parameters or no data present'}, 'data': {'errorType': 'Data_Error', 'errorCode': 'DH-907', 'errorMessage': 'System is unable to fetch data due to incorrect parameters or no data present'}}
+ERROR:2025-03-21 13:16:15,610:MainThread:Exception in Getting OHLC data as {'status': 'failure', 'remarks': {'error_code': 'DH-907', 'error_type': 'Data_Error', 'error_message': 'System is unable to fetch data due to incorrect parameters or no data present'}, 'data': {'errorType': 'Data_Error', 'errorCode': 'DH-907', 'errorMessage': 'System is unable to fetch data due to incorrect parameters or no data present'}}
+Traceback (most recent call last):
+  File "C:\Users\vsfjg\Desktop\Trading\Live_Algo\Inside Candle Algo\Dhan_Tradehull_V2.py", line 561, in get_intraday_data
+    raise Exception(ohlc)
+Exception: {'status': 'failure', 'remarks': {'error_code': 'DH-907', 'error_type': 'Data_Error', 'error_message': 'System is unable to fetch data due to incorrect parameters or no data present'}, 'data': {'errorType': 'Data_Error', 'errorCode': 'DH-907', 'errorMessage': 'System is unable to fetch data due to incorrect parameters or no data present'}}
+INFO:2025-03-21 13:24:52,198:MainThread:Dhan.py  started system
+INFO:2025-03-21 13:24:52,198:MainThread:STARTED THE PROGRAM
+INFO:2025-03-21 13:26:23,720:MainThread:Dhan.py  started system
+INFO:2025-03-21 13:26:23,720:MainThread:STARTED THE PROGRAM
+ERROR:2025-03-21 13:29:53,601:MainThread:Exception in Getting OHLC data as {'status': 'failure', 'remarks': {'error_code': 'DH-907', 'error_type': 'Data_Error', 'error_message': 'System is unable to fetch data due to incorrect parameters or no data present'}, 'data': {'errorType': 'Data_Error', 'errorCode': 'DH-907', 'errorMessage': 'System is unable to fetch data due to incorrect parameters or no data present'}}
+Traceback (most recent call last):
+  File "C:\Users\vsfjg\Desktop\Trading\Live_Algo\Inside Candle Algo\Dhan_Tradehull_V2.py", line 561, in get_intraday_data
+    raise Exception(ohlc)
+Exception: {'status': 'failure', 'remarks': {'error_code': 'DH-907', 'error_type': 'Data_Error', 'error_message': 'System is unable to fetch data due to incorrect parameters or no data present'}, 'data': {'errorType': 'Data_Error', 'errorCode': 'DH-907', 'errorMessage': 'System is unable to fetch data due to incorrect parameters or no data present'}}
+ERROR:2025-03-21 13:36:24,907:MainThread:Exception in Getting OHLC data as {'status': 'failure', 'remarks': {'error_code': 'DH-907', 'error_type': 'Data_Error', 'error_message': 'System is unable to fetch data due to incorrect parameters or no data present'}, 'data': {'errorType': 'Data_Error', 'errorCode': 'DH-907', 'errorMessage': 'System is unable to fetch data due to incorrect parameters or no data present'}}
+Traceback (most recent call last):
+  File "C:\Users\vsfjg\Desktop\Trading\Live_Algo\Inside Candle Algo\Dhan_Tradehull_V2.py", line 561, in get_intraday_data
+    raise Exception(ohlc)
+Exception: {'status': 'failure', 'remarks': {'error_code': 'DH-907', 'error_type': 'Data_Error', 'error_message': 'System is unable to fetch data due to incorrect parameters or no data present'}, 'data': {'errorType': 'Data_Error', 'errorCode': 'DH-907', 'errorMessage': 'System is unable to fetch data due to incorrect parameters or no data present'}}
+ERROR:2025-03-21 13:43:03,488:MainThread:Exception in Getting OHLC data as {'status': 'failure', 'remarks': {'error_code': 'DH-907', 'error_type': 'Data_Error', 'error_message': 'System is unable to fetch data due to incorrect parameters or no data present'}, 'data': {'errorType': 'Data_Error', 'errorCode': 'DH-907', 'errorMessage': 'System is unable to fetch data due to incorrect parameters or no data present'}}
+Traceback (most recent call last):
+  File "C:\Users\vsfjg\Desktop\Trading\Live_Algo\Inside Candle Algo\Dhan_Tradehull_V2.py", line 561, in get_intraday_data
+    raise Exception(ohlc)
+Exception: {'status': 'failure', 'remarks': {'error_code': 'DH-907', 'error_type': 'Data_Error', 'error_message': 'System is unable to fetch data due to incorrect parameters or no data present'}, 'data': {'errorType': 'Data_Error', 'errorCode': 'DH-907', 'errorMessage': 'System is unable to fetch data due to incorrect parameters or no data present'}}
+ERROR:2025-03-21 13:49:41,436:MainThread:Exception in Getting OHLC data as {'status': 'failure', 'remarks': {'error_code': 'DH-907', 'error_type': 'Data_Error', 'error_message': 'System is unable to fetch data due to incorrect parameters or no data present'}, 'data': {'errorType': 'Data_Error', 'errorCode': 'DH-907', 'errorMessage': 'System is unable to fetch data due to incorrect parameters or no data present'}}
+Traceback (most recent call last):
+  File "C:\Users\vsfjg\Desktop\Trading\Live_Algo\Inside Candle Algo\Dhan_Tradehull_V2.py", line 561, in get_intraday_data
+    raise Exception(ohlc)
+Exception: {'status': 'failure', 'remarks': {'error_code': 'DH-907', 'error_type': 'Data_Error', 'error_message': 'System is unable to fetch data due to incorrect parameters or no data present'}, 'data': {'errorType': 'Data_Error', 'errorCode': 'DH-907', 'errorMessage': 'System is unable to fetch data due to incorrect parameters or no data present'}}
+ERROR:2025-03-21 13:56:24,116:MainThread:Exception in Getting OHLC data as {'status': 'failure', 'remarks': {'error_code': 'DH-907', 'error_type': 'Data_Error', 'error_message': 'System is unable to fetch data due to incorrect parameters or no data present'}, 'data': {'errorType': 'Data_Error', 'errorCode': 'DH-907', 'errorMessage': 'System is unable to fetch data due to incorrect parameters or no data present'}}
+Traceback (most recent call last):
+  File "C:\Users\vsfjg\Desktop\Trading\Live_Algo\Inside Candle Algo\Dhan_Tradehull_V2.py", line 561, in get_intraday_data
+    raise Exception(ohlc)
+Exception: {'status': 'failure', 'remarks': {'error_code': 'DH-907', 'error_type': 'Data_Error', 'error_message': 'System is unable to fetch data due to incorrect parameters or no data present'}, 'data': {'errorType': 'Data_Error', 'errorCode': 'DH-907', 'errorMessage': 'System is unable to fetch data due to incorrect parameters or no data present'}}
+ERROR:2025-03-21 16:25:47,325:MainThread:Exception in dhanhq>>intraday_minute_data: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+ERROR:2025-03-21 16:25:47,326:MainThread:Exception in Getting OHLC data as {'status': 'failure', 'remarks': "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))", 'data': ''}
+Traceback (most recent call last):
+  File "C:\Users\vsfjg\Desktop\Trading\Live_Algo\Inside Candle Algo\Dhan_Tradehull_V2.py", line 561, in get_intraday_data
+    raise Exception(ohlc)
+Exception: {'status': 'failure', 'remarks': "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))", 'data': ''}
+ERROR:2025-03-21 16:30:44,649:MainThread:Exception in Getting OHLC data as {'status': 'failure', 'remarks': {'error_code': 'DH-907', 'error_type': 'Data_Error', 'error_message': 'System is unable to fetch data due to incorrect parameters or no data present'}, 'data': {'errorType': 'Data_Error', 'errorCode': 'DH-907', 'errorMessage': 'System is unable to fetch data due to incorrect parameters or no data present'}}
+Traceback (most recent call last):
+  File "C:\Users\vsfjg\Desktop\Trading\Live_Algo\Inside Candle Algo\Dhan_Tradehull_V2.py", line 561, in get_intraday_data
+    raise Exception(ohlc)
+Exception: {'status': 'failure', 'remarks': {'error_code': 'DH-907', 'error_type': 'Data_Error', 'error_message': 'System is unable to fetch data due to incorrect parameters or no data present'}, 'data': {'errorType': 'Data_Error', 'errorCode': 'DH-907', 'errorMessage': 'System is unable to fetch data due to incorrect parameters or no data present'}}

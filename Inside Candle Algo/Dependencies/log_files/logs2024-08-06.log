@@ -1,0 +1,81 @@
+INFO:2024-08-06 09:51:18,876:MainThread:Dhan.py  started system
+INFO:2024-08-06 09:51:18,876:MainThread:STARTED THE PROGRAM
+ERROR:2024-08-06 09:53:11,000:MainThread:Exception in getting LTP as 'NIFTY SML100 FREE'
+Traceback (most recent call last):
+  File "C:\Users\imran\AppData\Local\Programs\Python\Python38\lib\cmd.py", line 214, in onecmd
+    func = getattr(self, 'do_' + cmd)
+AttributeError: 'Pdb' object has no attribute 'do_live_pnl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\imran\Desktop\Dhan\3. Session3 - Codebase\Dhan codebase\Dhan_Tradehull.py", line 308, in get_ltp
+    return data.to_dict()[name[0]]
+KeyError: 'NIFTY SML100 FREE'
+ERROR:2024-08-06 09:53:18,095:MainThread:Exception in getting LTP as 'NIFTY SML100 FREE'
+Traceback (most recent call last):
+  File "C:\Users\imran\AppData\Local\Programs\Python\Python38\lib\cmd.py", line 214, in onecmd
+    func = getattr(self, 'do_' + cmd)
+AttributeError: 'Pdb' object has no attribute 'do_live_pnl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\imran\Desktop\Dhan\3. Session3 - Codebase\Dhan codebase\Dhan_Tradehull.py", line 308, in get_ltp
+    return data.to_dict()[name[0]]
+KeyError: 'NIFTY SML100 FREE'
+INFO:2024-08-06 10:12:17,390:MainThread:Dhan.py  started system
+INFO:2024-08-06 10:12:17,390:MainThread:STARTED THE PROGRAM
+INFO:2024-08-06 10:15:54,397:MainThread:Dhan.py  started system
+INFO:2024-08-06 10:15:54,397:MainThread:STARTED THE PROGRAM
+INFO:2024-08-06 11:40:41,517:MainThread:Dhan.py  started system
+INFO:2024-08-06 11:40:41,517:MainThread:STARTED THE PROGRAM
+ERROR:2024-08-06 11:41:17,681:MainThread:Exception in getting LTP as 'NIFTY-Aug2024-24450-CE'
+Traceback (most recent call last):
+  File "C:\Users\imran\AppData\Local\Programs\Python\Python38\lib\cmd.py", line 214, in onecmd
+    func = getattr(self, 'do_' + cmd)
+AttributeError: 'Pdb' object has no attribute 'do_ltp1'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\imran\Desktop\Dhan\3. Session3 - Codebase\Dhan codebase\Dhan_Tradehull.py", line 308, in get_ltp
+    return data.to_dict()[name[0]]
+KeyError: 'NIFTY-Aug2024-24450-CE'
+INFO:2024-08-06 15:12:09,561:MainThread:Dhan.py  started system
+INFO:2024-08-06 15:12:09,564:MainThread:STARTED THE PROGRAM
+INFO:2024-08-06 15:14:55,689:MainThread:Dhan.py  started system
+INFO:2024-08-06 15:14:55,689:MainThread:STARTED THE PROGRAM
+INFO:2024-08-06 15:15:18,412:MainThread:Dhan.py  started system
+INFO:2024-08-06 15:15:18,413:MainThread:STARTED THE PROGRAM
+INFO:2024-08-06 15:15:44,475:MainThread:Dhan.py  started system
+INFO:2024-08-06 15:15:44,475:MainThread:STARTED THE PROGRAM
+INFO:2024-08-06 15:24:15,806:MainThread:Dhan.py  started system
+INFO:2024-08-06 15:24:15,806:MainThread:STARTED THE PROGRAM
+INFO:2024-08-06 15:24:37,510:MainThread:Dhan.py  started system
+INFO:2024-08-06 15:24:37,510:MainThread:STARTED THE PROGRAM
+INFO:2024-08-06 15:24:56,093:MainThread:Dhan.py  started system
+INFO:2024-08-06 15:24:56,094:MainThread:STARTED THE PROGRAM
+INFO:2024-08-06 15:25:21,956:MainThread:Dhan.py  started system
+INFO:2024-08-06 15:25:21,956:MainThread:STARTED THE PROGRAM
+INFO:2024-08-06 15:32:09,837:MainThread:Dhan.py  started system
+INFO:2024-08-06 15:32:09,837:MainThread:STARTED THE PROGRAM
+INFO:2024-08-06 15:34:59,262:MainThread:Dhan.py  started system
+INFO:2024-08-06 15:34:59,262:MainThread:STARTED THE PROGRAM
+INFO:2024-08-06 15:38:46,052:MainThread:Dhan.py  started system
+INFO:2024-08-06 15:38:46,052:MainThread:STARTED THE PROGRAM
+INFO:2024-08-06 15:43:35,658:MainThread:Dhan.py  started system
+INFO:2024-08-06 15:43:35,658:MainThread:STARTED THE PROGRAM
+INFO:2024-08-06 15:54:55,412:MainThread:Dhan.py  started system
+INFO:2024-08-06 15:54:55,412:MainThread:STARTED THE PROGRAM
+INFO:2024-08-06 16:02:52,429:MainThread:Dhan.py  started system
+INFO:2024-08-06 16:02:52,429:MainThread:STARTED THE PROGRAM
+INFO:2024-08-06 16:03:57,840:MainThread:Dhan.py  started system
+INFO:2024-08-06 16:03:57,840:MainThread:STARTED THE PROGRAM
+INFO:2024-08-06 23:48:49,217:MainThread:Dhan.py  started system
+INFO:2024-08-06 23:48:49,217:MainThread:STARTED THE PROGRAM
+ERROR:2024-08-06 23:48:51,672:MainThread:Got exception in place_order as string indices must be integers
+Traceback (most recent call last):
+  File "C:\Users\imran\Desktop\Dhan\6. Session6- 1st Live Algo\1st live Algo\Dhan_Tradehull.py", line 132, in order_placement
+    orderid = order["data"]["orderId"]
+TypeError: string indices must be integers
