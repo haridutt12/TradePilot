@@ -41,3 +41,17 @@ INFO:2025-04-01 13:52:42,829:MainThread:Dhan.py  started system
 INFO:2025-04-01 13:52:42,834:MainThread:STARTED THE PROGRAM
 INFO:2025-04-01 14:29:45,053:MainThread:Dhan.py  started system
 INFO:2025-04-01 14:29:45,053:MainThread:STARTED THE PROGRAM
+INFO:2025-04-01 14:32:58,504:MainThread:Dhan.py  started system
+INFO:2025-04-01 14:32:58,504:MainThread:STARTED THE PROGRAM
+ERROR:2025-04-01 15:25:27,640:MainThread:Exception in dhanhq>>intraday_minute_data: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+ERROR:2025-04-01 15:25:27,658:MainThread:Exception in Getting OHLC data as {'status': 'failure', 'remarks': "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))", 'data': ''}
+Traceback (most recent call last):
+  File "C:\Users\vsfjg\Desktop\Trading\Live_Algo\Inside Candle Algo\Dhan_Tradehull_V2.py", line 501, in get_historical_data
+    raise Exception(ohlc)
+Exception: {'status': 'failure', 'remarks': "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))", 'data': ''}
+ERROR:2025-04-01 15:32:27,872:MainThread:Exception in dhanhq>>intraday_minute_data: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+ERROR:2025-04-01 15:32:27,882:MainThread:Exception in Getting OHLC data as {'status': 'failure', 'remarks': "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))", 'data': ''}
+Traceback (most recent call last):
+  File "C:\Users\vsfjg\Desktop\Trading\Live_Algo\Inside Candle Algo\Dhan_Tradehull_V2.py", line 501, in get_historical_data
+    raise Exception(ohlc)
+Exception: {'status': 'failure', 'remarks': "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))", 'data': ''}

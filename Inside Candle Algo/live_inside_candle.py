@@ -1,5 +1,3 @@
-# buy_entry_orderid = tsl.order_placement(stock_name, 'NSE', qty, take_profit, stop_loss, 'MARKET', 'BUY', 'MIS')
-# sell_entry_orderid = tsl.order_placement(stock_name, 'NSE', qty, take_profit, stop_loss, 'MARKET', 'SELL', 'MIS')
 import pdb
 from Dhan_Tradehull_V2 import Tradehull
 import pandas as pd
