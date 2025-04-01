@@ -1,0 +1,33 @@
+INFO:2025-03-27 09:36:12,787:MainThread:Dhan.py  started system
+INFO:2025-03-27 09:36:12,787:MainThread:STARTED THE PROGRAM
+INFO:2025-03-27 09:47:09,165:MainThread:Dhan.py  started system
+INFO:2025-03-27 09:47:09,165:MainThread:STARTED THE PROGRAM
+INFO:2025-03-27 09:47:46,681:MainThread:Dhan.py  started system
+INFO:2025-03-27 09:47:46,681:MainThread:STARTED THE PROGRAM
+ERROR:2025-03-27 09:59:12,402:MainThread:Exception in dhanhq>>intraday_minute_data: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+ERROR:2025-03-27 09:59:12,708:MainThread:Exception in dhanhq>>intraday_minute_data: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+ERROR:2025-03-27 09:59:12,693:MainThread:Exception in dhanhq>>intraday_minute_data: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+ERROR:2025-03-27 09:59:13,171:MainThread:Exception in Getting OHLC data as {'status': 'failure', 'remarks': "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))", 'data': ''}
+Traceback (most recent call last):
+  File "C:\Users\vsfjg\Desktop\Trading\Live_Algo\Inside Candle Algo\Dhan_Tradehull_V2.py", line 561, in get_intraday_data
+    raise Exception(ohlc)
+Exception: {'status': 'failure', 'remarks': "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))", 'data': ''}
+ERROR:2025-03-27 09:59:13,171:MainThread:Exception in Getting OHLC data as {'status': 'failure', 'remarks': "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))", 'data': ''}
+Traceback (most recent call last):
+  File "C:\Users\vsfjg\Desktop\Trading\Live_Algo\Inside Candle Algo\Dhan_Tradehull_V2.py", line 561, in get_intraday_data
+    raise Exception(ohlc)
+Exception: {'status': 'failure', 'remarks': "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))", 'data': ''}
+INFO:2025-03-27 10:03:21,033:MainThread:Dhan.py  started system
+INFO:2025-03-27 10:03:21,034:MainThread:STARTED THE PROGRAM
+INFO:2025-03-27 11:36:07,596:MainThread:Dhan.py  started system
+INFO:2025-03-27 11:36:07,597:MainThread:STARTED THE PROGRAM
+INFO:2025-03-27 11:41:49,541:MainThread:Dhan.py  started system
+INFO:2025-03-27 11:41:49,541:MainThread:STARTED THE PROGRAM
+ERROR:2025-03-27 12:52:20,763:MainThread:Exception in dhanhq>>intraday_minute_data: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+ERROR:2025-03-27 12:52:20,763:MainThread:Exception in Getting OHLC data as {'status': 'failure', 'remarks': "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))", 'data': ''}
+Traceback (most recent call last):
+  File "C:\Users\vsfjg\Desktop\Trading\Live_Algo\Inside Candle Algo\Dhan_Tradehull_V2.py", line 561, in get_intraday_data
+    raise Exception(ohlc)
+Exception: {'status': 'failure', 'remarks': "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))", 'data': ''}
+INFO:2025-03-27 13:40:54,279:MainThread:Dhan.py  started system
+INFO:2025-03-27 13:40:54,281:MainThread:STARTED THE PROGRAM

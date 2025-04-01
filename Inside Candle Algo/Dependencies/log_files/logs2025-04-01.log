@@ -1,0 +1,43 @@
+INFO:2025-04-01 11:13:35,322:MainThread:Dhan.py  started system
+INFO:2025-04-01 11:13:35,322:MainThread:STARTED THE PROGRAM
+INFO:2025-04-01 11:43:53,663:MainThread:Dhan.py  started system
+INFO:2025-04-01 11:43:53,663:MainThread:STARTED THE PROGRAM
+ERROR:2025-04-01 11:43:54,858:MainThread:Exception in dhanhq>>intraday_history_minute_charts: HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /v2/charts/historical (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000018E58D24B50>: Failed to resolve 'api.dhan.co' ([Errno 11001] getaddrinfo failed)"))
+ERROR:2025-04-01 11:43:54,861:MainThread:Exception in dhanhq>>get_fund_limits: HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /v2/fundlimit (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000018E50AF0040>: Failed to resolve 'api.dhan.co' ([Errno 11001] getaddrinfo failed)"))
+ERROR:2025-04-01 11:43:54,861:MainThread:Error at Gettting balance as {'status': 'failure', 'remarks': 'HTTPSConnectionPool(host=\'api.dhan.co\', port=443): Max retries exceeded with url: /v2/fundlimit (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000018E50AF0040>: Failed to resolve \'api.dhan.co\' ([Errno 11001] getaddrinfo failed)"))', 'data': ''}
+Traceback (most recent call last):
+  File "C:\Users\vsfjg\Desktop\Trading\Live_Algo\Inside Candle Algo\Dhan_Tradehull_V2.py", line 401, in get_balance
+    raise Exception(response)
+Exception: {'status': 'failure', 'remarks': 'HTTPSConnectionPool(host=\'api.dhan.co\', port=443): Max retries exceeded with url: /v2/fundlimit (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000018E50AF0040>: Failed to resolve \'api.dhan.co\' ([Errno 11001] getaddrinfo failed)"))', 'data': ''}
+ERROR:2025-04-01 11:43:57,151:MainThread:Exception in dhanhq>>intraday_minute_data: HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /v2/charts/intraday (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000018E58D243A0>: Failed to resolve 'api.dhan.co' ([Errno 11001] getaddrinfo failed)"))
+ERROR:2025-04-01 11:43:57,153:MainThread:Exception in Getting OHLC data as {'status': 'failure', 'remarks': 'HTTPSConnectionPool(host=\'api.dhan.co\', port=443): Max retries exceeded with url: /v2/charts/intraday (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000018E58D243A0>: Failed to resolve \'api.dhan.co\' ([Errno 11001] getaddrinfo failed)"))', 'data': ''}
+Traceback (most recent call last):
+  File "C:\Users\vsfjg\Desktop\Trading\Live_Algo\Inside Candle Algo\Dhan_Tradehull_V2.py", line 501, in get_historical_data
+    raise Exception(ohlc)
+Exception: {'status': 'failure', 'remarks': 'HTTPSConnectionPool(host=\'api.dhan.co\', port=443): Max retries exceeded with url: /v2/charts/intraday (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000018E58D243A0>: Failed to resolve \'api.dhan.co\' ([Errno 11001] getaddrinfo failed)"))', 'data': ''}
+ERROR:2025-04-01 11:43:59,415:MainThread:Exception in dhanhq>>intraday_minute_data: HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /v2/charts/intraday (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000018E50AF0040>: Failed to resolve 'api.dhan.co' ([Errno 11001] getaddrinfo failed)"))
+ERROR:2025-04-01 11:43:59,415:MainThread:Exception in Getting OHLC data as {'status': 'failure', 'remarks': 'HTTPSConnectionPool(host=\'api.dhan.co\', port=443): Max retries exceeded with url: /v2/charts/intraday (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000018E50AF0040>: Failed to resolve \'api.dhan.co\' ([Errno 11001] getaddrinfo failed)"))', 'data': ''}
+Traceback (most recent call last):
+  File "C:\Users\vsfjg\Desktop\Trading\Live_Algo\Inside Candle Algo\Dhan_Tradehull_V2.py", line 501, in get_historical_data
+    raise Exception(ohlc)
+Exception: {'status': 'failure', 'remarks': 'HTTPSConnectionPool(host=\'api.dhan.co\', port=443): Max retries exceeded with url: /v2/charts/intraday (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000018E50AF0040>: Failed to resolve \'api.dhan.co\' ([Errno 11001] getaddrinfo failed)"))', 'data': ''}
+ERROR:2025-04-01 11:44:01,728:MainThread:Exception in dhanhq>>intraday_minute_data: HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /v2/charts/intraday (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000018E50B262B0>: Failed to resolve 'api.dhan.co' ([Errno 11001] getaddrinfo failed)"))
+ERROR:2025-04-01 11:44:01,728:MainThread:Exception in Getting OHLC data as {'status': 'failure', 'remarks': 'HTTPSConnectionPool(host=\'api.dhan.co\', port=443): Max retries exceeded with url: /v2/charts/intraday (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000018E50B262B0>: Failed to resolve \'api.dhan.co\' ([Errno 11001] getaddrinfo failed)"))', 'data': ''}
+Traceback (most recent call last):
+  File "C:\Users\vsfjg\Desktop\Trading\Live_Algo\Inside Candle Algo\Dhan_Tradehull_V2.py", line 501, in get_historical_data
+    raise Exception(ohlc)
+Exception: {'status': 'failure', 'remarks': 'HTTPSConnectionPool(host=\'api.dhan.co\', port=443): Max retries exceeded with url: /v2/charts/intraday (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000018E50B262B0>: Failed to resolve \'api.dhan.co\' ([Errno 11001] getaddrinfo failed)"))', 'data': ''}
+INFO:2025-04-01 11:45:04,798:MainThread:Dhan.py  started system
+INFO:2025-04-01 11:45:04,798:MainThread:STARTED THE PROGRAM
+INFO:2025-04-01 12:13:06,302:MainThread:Dhan.py  started system
+INFO:2025-04-01 12:13:06,302:MainThread:STARTED THE PROGRAM
+INFO:2025-04-01 13:07:33,721:MainThread:Dhan.py  started system
+INFO:2025-04-01 13:07:33,721:MainThread:STARTED THE PROGRAM
+INFO:2025-04-01 13:35:46,021:MainThread:Dhan.py  started system
+INFO:2025-04-01 13:35:46,021:MainThread:STARTED THE PROGRAM
+INFO:2025-04-01 13:43:02,070:MainThread:Dhan.py  started system
+INFO:2025-04-01 13:43:02,070:MainThread:STARTED THE PROGRAM
+INFO:2025-04-01 13:52:42,829:MainThread:Dhan.py  started system
+INFO:2025-04-01 13:52:42,834:MainThread:STARTED THE PROGRAM
+INFO:2025-04-01 14:29:45,053:MainThread:Dhan.py  started system
+INFO:2025-04-01 14:29:45,053:MainThread:STARTED THE PROGRAM

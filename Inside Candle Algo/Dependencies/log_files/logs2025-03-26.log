@@ -1,0 +1,66 @@
+Strategy Rules:
+1. We will be using supertrend indicator.. Supertrend (10,3)
+2. At 9:25am, if bank nifty > supertrend level, we sell put with strike closest to the supertrend level. Initial stop loss would be 50% above the sold price. And then trailing stop loss would be the supertrend indicator of the put option itself. So if put price goes above its supertrend level, we exit.
+3. Similarly, if bank nifty < supertrend level, we sell call with strike closest to supertrend level and stop loss is either 50% above sold price or if the call price goes above its supertrend level..
+4. After the first entry is exited, we will wait for signal in the other direction. ie. if initial entry was put and its exited, we will enter call when bank nifty < supertrend and similarly if initial entry was call, we will enter put when bank nifty > supertrend..
+5. We will have total of max 3 entries.. So after 2nd entry is also exited with stop loss, we will again wait for signal in the other direction for entry..
+
+
+Data Assumptions:
+1) Supertrend Calculation: use Banknifty future price and calculate Supertrend value
+2) Strike - round it to the nearest 100. That becomes the ATM strike
+3) As of now, you can ignore slippage and txn cost. If you get time / bandwidth, then you can incorporate this. For order book dynamics, you dont have nth level order book data. So ignore order book dynamics part
+Data Structure / Processing
+1) Take the last data for a particular second (if multiple entries)
+2) Use last available data (so effectively make a clean data structure) as extrapolation in case data is missing for few seconds
+3) Trade Execution: Ideally, you should take Bid if you are selling and Ask if you are buying. But if you find this difficult, then just consider LTP for the time being.
+Expiry: always weekly
+Illiquid Option Handling: ignore for the time being
+
+
+Sample Data for banknifty Future and options:
+Ticker	Date	Time	LTP	BuyPrice	BuyQty	SellPrice	SellQty	LTQ
+BANKNIFTY-I.NFO	01-04-2022	09:15:00	36407	36402.4	100	36479.95	100	1200
+BANKNIFTY-I.NFO	01-04-2022	09:15:00	36407	36402.4	100	36479.95	100	0
+BANKNIFTY-I.NFO	01-04-2022	09:15:00	36467	36402.4	100	36479.95	100	0
+BANKNIFTY-I.NFO	01-04-2022	09:15:00	36360	36402.4	100	36479.95	100	0
+BANKNIFTY-I.NFO	01-04-2022	09:15:02	36420	36417.05	100	36422.05	50	1975
+BANKNIFTY-I.NFO	01-04-2022	09:15:02	36479.95	36417.05	100	36422.05	50	0
+BANKNIFTY-I.NFO	01-04-2022	09:15:03	36382.25	36382.25	25	36386.8	75	5825
+BANKNIFTY-I.NFO	01-04-2022	09:15:05	36397.65	36387.1	100	36397.75	25	1450
+BANKNIFTY-I.NFO	01-04-2022	09:15:07	36371.05	36368.55	100	36382.25	25	3425
+BANKNIFTY-I.NFO	01-04-2022	09:15:09	36355	36355	25	36359.95	100	1950
+BANKNIFTY-I.NFO	01-04-2022	09:15:09	36355	36355	25	36359.95	100	0
+BANKNIFTY-I.NFO	01-04-2022	09:15:11	36348	36347	25	36347.85	25	1550
+BANKNIFTY-I.NFO	01-04-2022	09:15:11	36348	36347	25	36347.85	25	0
+
+
+
+Ticker	Date	Time	LTP	BuyPrice	BuyQty	SellPrice	SellQty	LTQ
+BANKNIFTY07APR2228900CE.NFO	01-04-2022	13:42:50	8162.45	8045.45	125	8193.75	125	25
+BANKNIFTY07APR2228900CE.NFO	01-04-2022	13:42:50	8162.45	8045.45	125	8193.75	125	0
+BANKNIFTY07APR2228900CE.NFO	01-04-2022	13:42:50	8162.45	8045.45	125	8193.75	125	0
+BANKNIFTY07APR2228900CE.NFO	01-04-2022	13:42:50	8162.45	8045.45	125	8193.75	125	0
+BANKNIFTY07APR2228900CE.NFO	01-04-2022	13:42:53	8162.45	8045.45	125	8193.75	125	0
+BANKNIFTY07APR2228900CE.NFO	01-04-2022	13:42:57	8162.45	8045.45	125	8193.7	550	0
+BANKNIFTY07APR2228900CE.NFO	01-04-2022	13:42:58	8162.45	8045.45	125	8193.7	700	0
+BANKNIFTY07APR2228900CE.NFO	01-04-2022	13:43:02	8162.45	8045.45	125	8189.3	700	0
+BANKNIFTY07APR2228900CE.NFO	01-04-2022	13:43:03	8162.45	8045.45	125	8181.95	25	0
+BANKNIFTY07APR2228900CE.NFO	01-04-2022	13:43:04	8162.45	8045.45	125	8180.5	25	0
+BANKNIFTY07APR2228900CE.NFO	01-04-2022	13:43:05	8162.45	8045.45	125	8180.4	25	0
+BANKNIFTY07APR2228900CE.NFO	01-04-2022	13:44:40	8162.45	8045.45	125	8180.45	125	0
+BANKNIFTY07APR2228900CE.NFO	01-04-2022	13:45:21	8162.45	8045.5	550	8180.45	125	0
+BANKNIFTY07APR2228900CE.NFO	01-04-2022	13:45:21	8162.45	8045.5	775	8180.45	125	0
+BANKNIFTY07APR2228900CE.NFO	01-04-2022	13:45:22	8162.45	8045.5	750	8180.45	125	0
+BANKNIFTY07APR2228900CE.NFO	01-04-2022	13:45:27	8162.45	8045.5	725	8180.45	125	0
+
+
+
+Success Metrix:
+What we will be looking forward is 
+1) Backtesting Code / Methodology
+2) Backtesting Output
+
+
+
+

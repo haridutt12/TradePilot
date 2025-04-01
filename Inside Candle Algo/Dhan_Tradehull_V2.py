@@ -442,6 +442,7 @@ class Tradehull:
 
 	def get_historical_data(self,tradingsymbol,exchange,timeframe, debug="NO"):			
 		try:
+			# breakpoint()
 			tradingsymbol = tradingsymbol.upper()
 			exchange = exchange.upper()
 			instrument_df = self.instrument_df.copy()
@@ -542,6 +543,7 @@ class Tradehull:
 
 			instrument_type = instrument_df[((instrument_df['SEM_TRADING_SYMBOL']==tradingsymbol)|(instrument_df['SEM_CUSTOM_SYMBOL']==tradingsymbol))&(instrument_df['SEM_EXM_EXCH_ID']==instrument_exchange[exchange])].iloc[-1]['SEM_INSTRUMENT_NAME']
 			time.sleep(2)
+			# breakpoint()
 			ohlc = self.Dhan.intraday_minute_data(str(security_id),exchange_segment,instrument_type,start_date,end_date,int(1))
 			
 			if debug.upper()=="YES":
