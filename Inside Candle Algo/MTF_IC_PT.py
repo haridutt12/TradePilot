@@ -89,7 +89,15 @@ def get_tick_size(price: float) -> float:
 def trading_loop(timeframe_in_min):
     count = 0
     traded_watchlist = []
+    traded_signals = {}  # Dictionary to store traded signals for each stock
+
     while True:
+        current_time = datetime.datetime.now().time()
+        market_close_time = datetime.time(15, 30)
+        if current_time >= market_close_time:
+            print("Market closed. Stopping execution.")
+            break  # Exit the loop
+            
         for stock_name in watchlist:
             start_time = time.time()
             for attempt in range(max_retries):
@@ -133,6 +141,13 @@ def trading_loop(timeframe_in_min):
 
             if uptrend and inside_candle_formed and upper_side_breakout:
                 entry_price = bc['close']
+
+                # Prevent multiple signals for same entry price
+                if stock_name in traded_signals and traded_signals[stock_name] == entry_price:
+                    print(f"Skipping duplicate BUY signal for {stock_name} at {entry_price}")
+                    continue
+
+                traded_signals[stock_name] = entry_price  # Store entry price
                 tick_size = get_tick_size(entry_price)
                 trigger_price = entry_price - 2 * tick_size
                 abs_stop_loss = round(((atr_multiplier_sl * atr_value) // tick_size) * tick_size, 2)
@@ -146,6 +161,13 @@ def trading_loop(timeframe_in_min):
 
             if downtrend and inside_candle_formed and down_side_breakout:
                 entry_price = bc['close']
+
+                # Prevent multiple signals for same entry price
+                if stock_name in traded_signals and traded_signals[stock_name] == entry_price:
+                    print(f"Skipping duplicate SELL signal for {stock_name} at {entry_price}")
+                    continue
+
+                traded_signals[stock_name] = entry_price  # Store entry price
                 tick_size = get_tick_size(entry_price)
                 trigger_price = entry_price + 2 * tick_size
                 abs_stop_loss = round(((atr_multiplier_sl * atr_value) // tick_size) * tick_size, 2)
@@ -158,6 +180,7 @@ def trading_loop(timeframe_in_min):
                 traded_watchlist.append(stock_name)
  
             print(f"[{timeframe_in_min}] Scanned {stock_name}, count: {count}, Time: {datetime.datetime.now().strftime('%H:%M:%S')}")
+
 
 if __name__ == "__main__":
     # Define the list of timeframes you want to run concurrently
